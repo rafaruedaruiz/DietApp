@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "dieta-app",
+    "name": "DietApp",
     "slug": "dieta-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/dietapp.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.rafaruedaruiz.dietaapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3b7a58ca-df16-4d95-9815-4d3160843e80"
+      }
     }
   }
 }
